@@ -6,10 +6,11 @@ import './index.css';
 import './components/course-navbar.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Counter from "./counter/react-counter/counter-react";
+import CounterRedux from "./counter/redux-counter/counter-redux";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CounterRedux />
   </React.StrictMode>,
   document.getElementById('root')
 );
