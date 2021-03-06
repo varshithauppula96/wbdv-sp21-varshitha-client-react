@@ -37,7 +37,7 @@ export default class CourseNavbar extends React.Component {
                         <div className="col-1 ">
                             <button className=" pr-2 pl-2 pt-1 pb-1 rounded-circle bg-secondary fa fa-plus fa-2x" onClick={() => {
                                 this.props.addCourse(this.state.title)
-                                this.setState({title:"New Course"})
+                                
 
 
 
@@ -58,7 +58,7 @@ export default class CourseNavbar extends React.Component {
                         style={{position: "fixed", bottom: 0, right: 0}}
                         onClick={() => {
                             this.props.addCourse(this.state.title)
-                            this.setState({title:"New Course"})
+
                         }}><i className="pr-2 pl-2 pt-1 pb-1 rounded-circle bg-secondary fa fa-plus fa-2x"/></button>
 
 
