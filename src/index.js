@@ -10,7 +10,7 @@ import Counter from "./counter/react-counter/counter-react";
 import CounterRedux from "./counter/redux-counter/counter-redux";
 ReactDOM.render(
   <React.StrictMode>
-    <CounterRedux />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
